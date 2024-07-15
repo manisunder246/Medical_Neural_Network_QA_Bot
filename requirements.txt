@@ -1,0 +1,14 @@
+requests
+beautifulsoup4
+wikipedia-api
+selenium
+nltk
+spacy
+pypdf2
+pandas
+tqdm
+transformers
+datasets
+flask
+torch
+lxml
