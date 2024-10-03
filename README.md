@@ -14,14 +14,6 @@ The task involves developing a question-answering system using a neural network 
 - **Multilingual** support with potential for further enhancements.
 - Preprocessing of domain-specific datasets from Wikipedia and Healthline using **BeautifulSoup**, **Selenium**, and NLP techniques like **Spacy** and **NLTK**.
 
-## How to Run the Application Locally
-
-### Prerequisites:
-- **Python 3.7+**
-- Install all dependencies from the `requirements.txt` file:
-```bash
-pip install -r requirements.txt
-
 ## Files in the Repository:
 
 - `fine_tuned_roberta/`: Folder containing the fine-tuned RoBERTa model.
@@ -46,4 +38,27 @@ The model used:
 - **Knowledge graph integration**: To enhance reasoning and provide structured knowledge.
 - **Multi-hop reasoning**: To allow the model to answer more complex queries.
 - **Ensemble models**: Combining models like BERT, RoBERTa, and BioBERT for more robust performance.
+
+
+## How to Run the Application Locally
+
+### Prerequisites:
+- **Python 3.7+**
+- Install all dependencies from the `requirements.txt` file:
+```bash
+pip install -r requirements.txt
+
+#1. Clone the repository:
+git clone https://github.com/manisunder246/Medical_Neural_Network_QA_Bot.git
+cd Medical_Neural_Network_QA_Bot
+
+#2. Set up the venv:
+python -m venv venv
+source venv/bin/activate  # For macOS/Linux
+# or
+venv\Scripts\activate  # For Windows
+
+#3.Download the fine-tuned model file: Download the model file from Google Drive (https://drive.google.com/file/d/1loN0gdwbarmlVhSut6AqkNAx7BIq8w60/view)
+## Place the file in the fine_tuned_roberta directory.
+
 
